@@ -1,0 +1,72 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(255, 255, 255);
+    background: url(af3c31e47063e90a8afcb59a9c0929bf.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+form{
+    text-align: center;
+     max-width: 350px;
+     margin: auto;
+     border: 2px solid;
+     border-radius: 25px;
+     background-color: rgb(197, 197, 197);
+     box-shadow: 3px 3px 10px gray;
+     backdrop-filter: blur(100px);
+     background: transparent;
+     /* border-style: none; */
+     /* padding-top: 10px;
+     padding-bottom: 10px; */
+}
+h1{
+    color: rgb(211, 9, 9);
+    text-shadow: 2px 2px 8px white;
+}
+
+#textBox{
+    width: 52%;
+    text-align: center;
+    font-weight: bold;
+    height: 1.5em;
+    caret-color: red;
+    color: blue;
+    border: none;
+    border-radius: 25px;
+    padding: 5px;
+    font-size: large;
+    box-shadow: 2px 2px 10px;
+
+}
+
+label{
+    font-weight: bolder;
+}
+
+button{
+    border: none;
+    height: 2em;
+    width: 5em;
+    background-color: gold;
+    border-radius: 25px;
+    box-shadow: 2px 2px 10px gray;
+    cursor: pointer;
+    /* transition: background-color ease-in-out; */
+    font-weight: bolder;
+    
+
+}
+
+button:hover{
+    background-color: rgb(235, 40, 40);
+}
+
+#result{
+    font-weight: bolder;
+    font-size: x-large;
+    color: blue;
+    text-shadow: 2px 2px 5px white;
+}
